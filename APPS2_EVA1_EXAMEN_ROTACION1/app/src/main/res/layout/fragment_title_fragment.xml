@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Title_fragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="APLICACIONES I"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/txtv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="EXAMEN PRÁCTICO"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="1RA EVALUACIÓN PARCIAL"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
