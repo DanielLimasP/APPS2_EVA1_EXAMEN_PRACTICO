@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">EXA1_INTERMEDIOS_ACREDITAR</string>
+    <string-array name="formulas">
+        <item>Circulo</item>
+        <item>Cuadrado</item>
+        <item>Triangulo</item>
+        <item>Triangulo escaleno</item>
+        <item>Rectangulo</item>
+        <item>Cilindro</item>
+        <item>Trapecio</item>
+        <item>Pentagono</item>
+        <item>Cono</item>
+        <item>Cubo</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TrapezoidFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="Trapecio = ((base 1 +  base 2)/ 2) * altura" />
+
+    <ImageView
+        android:id="@+id/imageTrapezoid"
+        android:layout_width="match_parent"
+        android:layout_height="325dp"
+        android:background="@raw/trapezoid"
+        tools:src="@raw/trapezoid" />
+
+    <EditText
+        android:id="@+id/edtBase1Trapezoid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:text="Base #1" />
+
+    <EditText
+        android:id="@+id/edtBase2Trapezoid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:text="Base #2" />
+
+    <EditText
+        android:id="@+id/edtAlturaTrapezoid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Altura" />
+
+    <Button
+        android:id="@+id/btnCalcularTrapezoid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular Área" />
+
+    <TextView
+        android:id="@+id/txtResultTrapezoid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

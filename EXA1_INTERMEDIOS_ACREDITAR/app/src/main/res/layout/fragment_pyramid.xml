@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PyramidFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="Piramide = (1/3) * area de la base * altura" />
+
+    <ImageView
+        android:id="@+id/imagePyramid"
+        android:layout_width="match_parent"
+        android:layout_height="325dp"
+        android:layout_weight="1"
+        android:background="@raw/pyramid"
+        tools:src="@raw/pyramid" />
+
+    <EditText
+        android:id="@+id/edtPyramidAlturaBase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="number"
+        tools:text="Altura de la Base" />
+
+    <EditText
+        android:id="@+id/edtPyramidLado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="number"
+        tools:text="Lado" />
+
+    <EditText
+        android:id="@+id/edtPyramidAltura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="number"
+        tools:text="Altura" />
+
+    <Button
+        android:id="@+id/btnCalcularPyramid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Calcular Área" />
+
+    <TextView
+        android:id="@+id/txtResultPyramid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+</LinearLayout>

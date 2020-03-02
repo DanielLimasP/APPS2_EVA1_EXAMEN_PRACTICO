@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SquareFragment">
+
+    <ImageView
+        android:id="@+id/imageSquare"
+        android:layout_width="match_parent"
+        android:layout_height="325dp"
+        android:background="@raw/square"
+        tools:src="@raw/square" />
+
+    <EditText
+        android:id="@+id/edtSquareSide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Insertar Longitud de Lado" />
+
+    <Button
+        android:id="@+id/btnCalcularSquare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular Área" />
+
+    <TextView
+        android:id="@+id/txtResultSquare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
