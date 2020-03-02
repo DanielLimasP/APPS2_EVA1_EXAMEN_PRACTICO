@@ -4,5 +4,5 @@ Examen Practico EVA1 - Ing. Ruben Alonso Hernandez Chavez
 Equipo Applepie: 
 
 Sergio Munoz 
-med Limas
+Amed Limas
 Kevin Dino
